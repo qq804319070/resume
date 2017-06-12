@@ -1,0 +1,1226 @@
+html,
+body,
+.swiper-container,
+.swiper-wrapper,
+.swiper-slide {
+  width: 100%;
+  height: 100%;
+}
+.swiper-slide {
+  overflow: hidden;
+}
+.swiper-slide * {
+  opacity: 0;
+}
+.bar {
+  width: .15rem;
+  height: .59rem;
+  margin: 0 .06rem;
+  float: left;
+}
+.sport {
+  position: absolute;
+  width: .14rem;
+  height: .14rem;
+}
+.dot4 {
+  position: absolute;
+  width: .2rem;
+  height: .2rem;
+}
+.line {
+  position: absolute;
+  width: 1.34rem;
+  height: .04rem;
+}
+.holl {
+  position: absolute;
+  width: .35rem;
+  height: .35rem;
+}
+.page2-font {
+  color: #000;
+  font-size: .3rem;
+  font-weight: bold;
+}
+.swiper-pagination {
+  z-index: 999;
+}
+.play-tip {
+  z-index: 999;
+  position: absolute;
+  width: .6rem;
+  height: .6rem;
+  background: url("../img/music.png") no-repeat;
+  background-size: .6rem 1.2rem;
+  -webkit-background-size: .6rem 1.2rem;
+  right: .2rem;
+  top: .2rem;
+}
+.arrows {
+  z-index: 999;
+  position: absolute;
+  left: 0;
+  right: 0;
+  bottom: .2rem;
+  margin: auto;
+  width: .6rem;
+  height: .36rem;
+  animation: arrowMove 1.5s ease infinite;
+  -webkit-animation: arrowMove 1.5s ease infinite;
+}
+.pause {
+  background-position: 0 -0.6rem;
+}
+.page1 {
+  background-color: #fafafa;
+}
+.page1 img {
+  position: absolute;
+  z-index: 3;
+}
+.page1 img:nth-child(1) {
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+}
+.page1 img:nth-child(2) {
+  z-index: 2;
+  width: 3.23rem;
+  height: 4.04rem;
+  left: 0;
+  right: 0;
+  top: 2.6rem;
+  margin: auto;
+}
+.page1 img:nth-child(3) {
+  width: 1.14rem;
+  height: 1.21rem;
+  top: 3rem;
+  left: 2.5rem;
+}
+.page1 img:nth-child(4) {
+  width: 1.17rem;
+  height: 1.15rem;
+  top: 3rem;
+  left: 3.9rem;
+}
+.page1 img:nth-child(5) {
+  width: 1.13rem;
+  height: 1.19rem;
+  top: 5.1rem;
+  left: 2.5rem;
+}
+.page1 img:nth-child(6) {
+  width: 1.16rem;
+  height: 1.13rem;
+  left: 3.9rem;
+  top: 5.1rem;
+}
+.page1 img:nth-child(7) {
+  width: 2.74rem;
+  height: .2rem;
+  left: 2.4rem;
+  top: 4.6rem;
+}
+.page1 img:nth-child(8) {
+  width: 2rem;
+  height: .22rem;
+  left: 0;
+  right: 0;
+  bottom: 2.6rem;
+  margin: auto;
+}
+.page1 img:nth-child(9) {
+  width: 2.7rem;
+  height: .23rem;
+  left: 0;
+  right: 0;
+  bottom: 2.3rem;
+  margin: auto;
+}
+.page1 .bot-font {
+  z-index: 3;
+  position: absolute;
+  text-align: center;
+  width: 100%;
+  bottom: 3.1rem;
+  color: white;
+  font-size: .28rem;
+}
+.page2 * {
+  position: absolute;
+}
+.page2 .topBg {
+  width: 12.82rem;
+  height: 3.62rem;
+  left: -5.2rem;
+  top: -1rem;
+}
+.page2 .botBg {
+  bottom: -1rem;
+  width: 12.54rem;
+  height: 3.76rem;
+}
+.page2 .about-me {
+  color: #fff;
+  font-size: .6rem;
+  right: .4rem;
+  top: .4rem;
+}
+.page2 h3 {
+  color: #fff;
+  font-size: .3rem;
+  top: 1.2rem;
+  right: .5rem;
+  font-weight: normal;
+}
+.page2 .head-por {
+  width: 2.3rem;
+  height: 2.3rem;
+  left: .4rem;
+  top: 3.4rem;
+}
+.page2 h2 {
+  color: #000;
+  font-size: .46rem;
+  top: 4.2rem;
+  left: 3rem;
+}
+.page2 .birthday {
+  top: 6.8rem;
+  left: 3rem;
+  color: #000;
+  font-size: .3rem;
+  font-weight: bold;
+}
+.page2 .phone {
+  top: 7.6rem;
+  left: 3rem;
+  color: #000;
+  font-size: .3rem;
+  font-weight: bold;
+}
+.page2 .email {
+  top: 8.4rem;
+  left: 3rem;
+  color: #000;
+  font-size: .3rem;
+  font-weight: bold;
+}
+.page2 .site {
+  top: 9.2rem;
+  left: 3rem;
+  color: #000;
+  font-size: .3rem;
+  font-weight: bold;
+}
+.page2 .sex {
+  color: #000;
+  font-size: .3rem;
+  font-weight: bold;
+  top: 5.2rem;
+  left: 3rem;
+}
+.page2 .education {
+  color: #000;
+  font-size: .3rem;
+  font-weight: bold;
+  top: 6rem;
+  left: 3rem;
+}
+.page3 .spot1 {
+  position: absolute;
+  width: .14rem;
+  height: .14rem;
+  left: 1rem;
+  top: 1.5rem;
+}
+.page3 .spot2 {
+  position: absolute;
+  width: .14rem;
+  height: .14rem;
+  right: 1rem;
+  top: 1.5rem;
+}
+.page3 .line1 {
+  position: absolute;
+  width: 1.34rem;
+  height: .04rem;
+  top: 1.55rem;
+  left: 1.3rem;
+}
+.page3 .line2 {
+  position: absolute;
+  width: 1.34rem;
+  height: .04rem;
+  top: 1.55rem;
+  right: 1.3rem;
+}
+.page3 .work {
+  position: absolute;
+  font-size: .4rem;
+  font-weight: bold;
+  color: #243e6f;
+  top: 1.1rem;
+  left: 2.95rem;
+}
+.page3 .workEn {
+  position: absolute;
+  font-size: .23rem;
+  font-weight: bold;
+  color: #243e6f;
+  top: 1.6rem;
+  left: 2.8rem;
+}
+.page3 .holl-dot1 {
+  position: absolute;
+  width: .35rem;
+  height: .35rem;
+  top: 2.6rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.page3 .red-line {
+  position: absolute;
+  width: .04rem;
+  height: .8rem;
+  top: 2.95rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.page3 .holl-dot2 {
+  position: absolute;
+  width: .35rem;
+  height: .35rem;
+  top: 3.75rem;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+.page3 .firm1 {
+  position: absolute;
+  font-size: .26rem;
+  right: .8rem;
+  top: 2.6rem;
+  color: #de525b;
+  font-weight: bold;
+}
+.page3 .firm2 {
+  position: absolute;
+  font-size: .26rem;
+  right: .8rem;
+  top: 3.75rem;
+  color: #de525b;
+  font-weight: bold;
+}
+.page3 .data1 {
+  position: absolute;
+  font-size: .26rem;
+  left: 2rem;
+  top: 2.4rem;
+  color: #de525b;
+  font-weight: bold;
+}
+.page3 .data2 {
+  position: absolute;
+  font-size: .26rem;
+  left: 2rem;
+  top: 3.7rem;
+  color: #de525b;
+  font-weight: bold;
+}
+.page3 .spot3 {
+  position: absolute;
+  width: .14rem;
+  height: .14rem;
+  left: 1rem;
+  top: 5.3rem;
+}
+.page3 .spot4 {
+  position: absolute;
+  width: .14rem;
+  height: .14rem;
+  right: 1rem;
+  top: 5.3rem;
+}
+.page3 .line3 {
+  position: absolute;
+  width: 1.34rem;
+  height: .04rem;
+  top: 5.35rem;
+  left: 1.3rem;
+}
+.page3 .line4 {
+  position: absolute;
+  width: 1.34rem;
+  height: .04rem;
+  top: 5.35rem;
+  right: 1.3rem;
+}
+.page3 .skill {
+  position: absolute;
+  font-size: .4rem;
+  font-weight: bold;
+  color: #243e6f;
+  top: 4.85rem;
+  left: 2.95rem;
+}
+.page3 .skillEn {
+  position: absolute;
+  font-size: .23rem;
+  font-weight: bold;
+  color: #243e6f;
+  top: 5.4rem;
+  left: 2.8rem;
+}
+.page3 .h5 {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border: .05rem solid #de525b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #de525b;
+  left: 1rem;
+  top: 6.3rem;
+}
+.page3 .css3 {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border: .05rem solid #de525b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #de525b;
+  left: 4.2rem;
+  top: 6.3rem;
+  font-size: .3rem;
+}
+.page3 .ps {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border: .05rem solid #de525b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #de525b;
+  left: 1rem;
+  top: 7.6rem;
+}
+.page3 .js {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border: .05rem solid #de525b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #de525b;
+  left: 4.2rem;
+  top: 7.6rem;
+}
+.page3 .jq {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border: .05rem solid #de525b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #de525b;
+  left: 1rem;
+  top: 8.9rem;
+}
+.page3 .vue {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border: .05rem solid #de525b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #de525b;
+  left: 4.2rem;
+  top: 8.9rem;
+}
+.page3 .Ajax {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border: .05rem solid #de525b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #de525b;
+  left: 1rem;
+  top: 10.2rem;
+}
+.page3 .h5-bar {
+  position: absolute;
+  left: 2rem;
+  top: 6.45rem;
+}
+.page3 .css3-bar {
+  position: absolute;
+  left: 5.2rem;
+  top: 6.45rem;
+}
+.page3 .ps-bar {
+  position: absolute;
+  left: 2rem;
+  top: 7.75rem;
+}
+.page3 .js-bar {
+  position: absolute;
+  left: 5.2rem;
+  top: 7.75rem;
+}
+.page3 .vue-bar {
+  position: absolute;
+  top: 9.08rem;
+  left: 5.2rem;
+}
+.page3 .jq-bar {
+  position: absolute;
+  left: 2rem;
+  top: 9.08rem;
+}
+.page3 .Ajax-bar {
+  position: absolute;
+  left: 2rem;
+  top: 10.35rem;
+}
+.page4 .spot1 {
+  position: absolute;
+  width: .14rem;
+  height: .14rem;
+  left: 1rem;
+  top: 1.5rem;
+}
+.page4 .spot2 {
+  position: absolute;
+  width: .14rem;
+  height: .14rem;
+  right: 1rem;
+  top: 1.5rem;
+}
+.page4 .line1 {
+  position: absolute;
+  width: 1.34rem;
+  height: .04rem;
+  top: 1.55rem;
+  left: 1.3rem;
+}
+.page4 .line2 {
+  position: absolute;
+  width: 1.34rem;
+  height: .04rem;
+  top: 1.55rem;
+  right: 1.3rem;
+}
+.page4 .purpose {
+  position: absolute;
+  font-size: .4rem;
+  font-weight: bold;
+  color: #243e6f;
+  top: 1.1rem;
+  left: 2.95rem;
+}
+.page4 .purposeEn {
+  position: absolute;
+  font-size: .23rem;
+  font-weight: bold;
+  color: #243e6f;
+  top: 1.6rem;
+  left: 2.95rem;
+}
+.page4 .dot-1 {
+  left: 1.7rem;
+  top: 3rem;
+}
+.page4 .post {
+  position: absolute;
+  color: #de525b;
+  left: 2.2rem;
+  font-size: .3rem;
+  top: 2.9rem;
+}
+.page4 .post-info {
+  position: absolute;
+  color: #de525b;
+  font-size: .35rem;
+  font-weight: bold;
+  left: 1.6rem;
+  top: 3.5rem;
+}
+.page4 .dot-2 {
+  left: 1.7rem;
+  top: 5rem;
+}
+.page4 .pay {
+  position: absolute;
+  color: #de525b;
+  left: 2.2rem;
+  font-size: .3rem;
+  top: 4.87rem;
+}
+.page4 .pay-info {
+  position: absolute;
+  color: #de525b;
+  font-size: .35rem;
+  font-weight: bold;
+  left: 1.6rem;
+  top: 5.4rem;
+}
+.page4 .dot-3 {
+  left: 1.7rem;
+  top: 7rem;
+}
+.page4 .expect {
+  position: absolute;
+  color: #de525b;
+  left: 2.2rem;
+  font-size: .3rem;
+  top: 6.88rem;
+}
+.page4 .expect-info {
+  position: absolute;
+  color: #de525b;
+  font-size: .35rem;
+  font-weight: bold;
+  left: 1.6rem;
+  top: 7.6rem;
+}
+.page4 .dot-4 {
+  left: 1.7rem;
+  top: 9.6rem;
+}
+.page4 .believe {
+  position: absolute;
+  color: #de525b;
+  left: 2.2rem;
+  font-size: .3rem;
+  top: 9.5rem;
+}
+.page4 .believe-info {
+  position: absolute;
+  color: #de525b;
+  font-size: .35rem;
+  font-weight: bold;
+  left: 1.6rem;
+  top: 10.2rem;
+}
+#page1 .bot-font {
+  animation: page1-div 0.5s linear 2.3s both;
+}
+#page1 :nth-child(1) {
+  animation: fadeIn 1s linear both;
+}
+#page1 :nth-child(2) {
+  animation: page1-img2 1s ease 1s both;
+}
+#page1 :nth-child(3) {
+  animation: fadeInDown .6s linear 1.5s both;
+}
+#page1 :nth-child(4) {
+  animation: fadeInRight .6s linear 1.5s both;
+}
+#page1 :nth-child(5) {
+  animation: fadeInLeft .6s linear 1.5s both;
+}
+#page1 :nth-child(6) {
+  animation: fadeInUp .6s linear 1.5s both;
+}
+#page1 :nth-child(7) {
+  animation: fadeIn .3s ease 2s both;
+}
+#page1 :nth-child(8) {
+  animation: page1-img8 0.3s linear 2.7s both;
+}
+#page1 :nth-child(9) {
+  animation: page1-img9 0.3s linear 3s both;
+}
+#page2 .topBg {
+  animation: topBg 1.3s ease both;
+}
+#page2 .botBg {
+  animation: botBg 1.3s ease both;
+}
+#page2 .about-me {
+  animation: about-me 1s ease 0.5s both;
+}
+#page2 h3 {
+  animation: about-me 1s ease 0.7s both;
+}
+#page2 .head-por {
+  animation: head-por 1s ease 1s both;
+}
+#page2 h2 {
+  animation: fadeInLeft 1s ease 1.7s both;
+}
+#page2 .birthday {
+  animation: fadeInRight 1s ease 2.9s both;
+}
+#page2 .phone {
+  animation: fadeInLeft 1s ease 3.2s both;
+}
+#page2 .email {
+  animation: fadeInRight 1s ease 3.5s both;
+}
+#page2 .site {
+  animation: fadeInLeft 1s ease 3.8s both;
+}
+#page2 .sex {
+  animation: fadeInRight 1s ease 2.2s both;
+}
+#page2 .education {
+  animation: fadeInLeft 1s ease 2.6s both;
+}
+#page3 .spot1 {
+  animation: fadeIn 1s linear both;
+}
+#page3 .spot2 {
+  animation: fadeIn 1s linear both;
+}
+#page3 .line1 {
+  animation: rotateInDownLeft 1s linear 0.5s both;
+}
+#page3 .line2 {
+  animation: rotateInDownRight 1s linear 0.5s both;
+}
+#page3 .work {
+  animation: fadeIn 1s linear 1.3s both;
+}
+#page3 .workEn {
+  animation: fadeInDown 0.8s ease 1.5s both;
+}
+#page3 .holl-dot1 {
+  animation: fadeIn 0.3s ease 2s both;
+}
+#page3 .red-line {
+  animation: linea .7s linear 2s both;
+}
+#page3 .holl-dot2 {
+  animation: fadeIn 0.3s ease 2.8s both;
+}
+#page3 .firm1 {
+  animation: fadeInUp 0.9s ease 2s both;
+}
+#page3 .data1 {
+  animation: fadeInUp 0.9s ease 2s both;
+}
+#page3 .firm2 {
+  animation: fadeInUp 0.9s ease 2.7s both;
+}
+#page3 .data2 {
+  animation: fadeInUp 0.9s ease 2.7s both;
+}
+#page3 .spot3 {
+  animation: fadeIn 1s linear 3s both;
+}
+#page3 .spot4 {
+  animation: fadeIn 1s linear 3s both;
+}
+#page3 .line3 {
+  animation: rotateInDownLeft 1s linear 3.2s both;
+}
+#page3 .line4 {
+  animation: rotateInDownRight 1s linear 3.2s both;
+}
+#page3 .skill {
+  animation: fadeIn 1s linear 4s both;
+}
+#page3 .skillEn {
+  animation: fadeInDown 0.8s ease 4.3s both;
+}
+#page3 .h5 {
+  animation: zoomIn 0.8s ease 4.6s both;
+}
+#page3 .css3 {
+  animation: zoomIn 0.8s ease 4.6s both;
+}
+#page3 .ps {
+  animation: zoomIn 0.8s ease 5s both;
+}
+#page3 .js {
+  animation: zoomIn 0.8s ease 5s both;
+}
+#page3 .vue {
+  animation: zoomIn 0.8s ease 5.5s both;
+}
+#page3 .jq {
+  animation: zoomIn 0.8s ease 5.5s both;
+}
+#page3 .Ajax {
+  animation: zoomIn 0.8s ease 5.9s both;
+}
+#page3 .h5-bar {
+  opacity: 1;
+}
+#page3 .h5-bar :nth-child(1) {
+  animation: fadeIn 1s linear 6.5s both;
+}
+#page3 .h5-bar :nth-child(2) {
+  animation: fadeIn 1s linear 7s both;
+}
+#page3 .h5-bar :nth-child(3) {
+  animation: fadeIn 1s linear 7.5s both;
+}
+#page3 .h5-bar :nth-child(4) {
+  animation: fadeIn 1s linear 8s both;
+}
+#page3 .h5-bar :nth-child(5) {
+  animation: fadeIn 1s linear 8.5s both;
+}
+#page3 .h5-bar :nth-child(6) {
+  animation: fadeIn 1s linear 9s both;
+}
+#page3 .h5-bar :nth-child(7) {
+  animation: fadeIn 1s linear 9.5s both;
+}
+#page3 .css3-bar {
+  opacity: 1;
+}
+#page3 .css3-bar :nth-child(1) {
+  animation: fadeIn 1s linear 6.5s both;
+}
+#page3 .css3-bar :nth-child(2) {
+  animation: fadeIn 1s linear 7s both;
+}
+#page3 .css3-bar :nth-child(3) {
+  animation: fadeIn 1s linear 7.5s both;
+}
+#page3 .css3-bar :nth-child(4) {
+  animation: fadeIn 1s linear 8s both;
+}
+#page3 .css3-bar :nth-child(5) {
+  animation: fadeIn 1s linear 8.5s both;
+}
+#page3 .css3-bar :nth-child(6) {
+  animation: fadeIn 1s linear 9s both;
+}
+#page3 .css3-bar :nth-child(7) {
+  animation: fadeIn 1s linear 9.5s both;
+}
+#page3 .ps-bar {
+  opacity: 1;
+}
+#page3 .ps-bar :nth-child(1) {
+  animation: fadeIn 1s linear 6.5s both;
+}
+#page3 .ps-bar :nth-child(2) {
+  animation: fadeIn 1s linear 7s both;
+}
+#page3 .ps-bar :nth-child(3) {
+  animation: fadeIn 1s linear 7.5s both;
+}
+#page3 .ps-bar :nth-child(4) {
+  animation: fadeIn 1s linear 8s both;
+}
+#page3 .ps-bar :nth-child(5) {
+  animation: fadeIn 1s linear 8.5s both;
+}
+#page3 .ps-bar :nth-child(6) {
+  animation: fadeIn 1s linear 9s both;
+}
+#page3 .ps-bar :nth-child(7) {
+  animation: fadeIn 1s linear 9.5s both;
+}
+#page3 .js-bar {
+  opacity: 1;
+}
+#page3 .js-bar :nth-child(1) {
+  animation: fadeIn 1s linear 6.5s both;
+}
+#page3 .js-bar :nth-child(2) {
+  animation: fadeIn 1s linear 7s both;
+}
+#page3 .js-bar :nth-child(3) {
+  animation: fadeIn 1s linear 7.5s both;
+}
+#page3 .js-bar :nth-child(4) {
+  animation: fadeIn 1s linear 8s both;
+}
+#page3 .js-bar :nth-child(5) {
+  animation: fadeIn 1s linear 8.5s both;
+}
+#page3 .js-bar :nth-child(6) {
+  animation: fadeIn 1s linear 9s both;
+}
+#page3 .js-bar :nth-child(7) {
+  animation: fadeIn 1s linear 9.5s both;
+}
+#page3 .vue-bar {
+  opacity: 1;
+}
+#page3 .vue-bar :nth-child(1) {
+  animation: fadeIn 1s linear 6.5s both;
+}
+#page3 .vue-bar :nth-child(2) {
+  animation: fadeIn 1s linear 7s both;
+}
+#page3 .vue-bar :nth-child(3) {
+  animation: fadeIn 1s linear 7.5s both;
+}
+#page3 .vue-bar :nth-child(4) {
+  animation: fadeIn 1s linear 8s both;
+}
+#page3 .vue-bar :nth-child(5) {
+  animation: fadeIn 1s linear 8.5s both;
+}
+#page3 .vue-bar :nth-child(6) {
+  animation: fadeIn 1s linear 9s both;
+}
+#page3 .vue-bar :nth-child(7) {
+  animation: fadeIn 1s linear 9.5s both;
+}
+#page3 .jq-bar {
+  opacity: 1;
+}
+#page3 .jq-bar :nth-child(1) {
+  animation: fadeIn 1s linear 6.5s both;
+}
+#page3 .jq-bar :nth-child(2) {
+  animation: fadeIn 1s linear 7s both;
+}
+#page3 .jq-bar :nth-child(3) {
+  animation: fadeIn 1s linear 7.5s both;
+}
+#page3 .jq-bar :nth-child(4) {
+  animation: fadeIn 1s linear 8s both;
+}
+#page3 .jq-bar :nth-child(5) {
+  animation: fadeIn 1s linear 8.5s both;
+}
+#page3 .jq-bar :nth-child(6) {
+  animation: fadeIn 1s linear 9s both;
+}
+#page3 .jq-bar :nth-child(7) {
+  animation: fadeIn 1s linear 9.5s both;
+}
+#page3 .Ajax-bar {
+  opacity: 1;
+}
+#page3 .Ajax-bar :nth-child(1) {
+  animation: fadeIn 1s linear 6.5s both;
+}
+#page3 .Ajax-bar :nth-child(2) {
+  animation: fadeIn 1s linear 7s both;
+}
+#page3 .Ajax-bar :nth-child(3) {
+  animation: fadeIn 1s linear 7.5s both;
+}
+#page3 .Ajax-bar :nth-child(4) {
+  animation: fadeIn 1s linear 8s both;
+}
+#page3 .Ajax-bar :nth-child(5) {
+  animation: fadeIn 1s linear 8.5s both;
+}
+#page3 .Ajax-bar :nth-child(6) {
+  animation: fadeIn 1s linear 9s both;
+}
+#page3 .Ajax-bar :nth-child(7) {
+  animation: fadeIn 1s linear 9.5s both;
+}
+#page4 .spot1 {
+  animation: fadeIn 1s linear both;
+}
+#page4 .spot2 {
+  animation: fadeIn 1s linear both;
+}
+#page4 .line1 {
+  animation: rotateInDownLeft 1s linear 0.5s both;
+}
+#page4 .line2 {
+  animation: rotateInDownRight 1s linear 0.5s both;
+}
+#page4 .purpose {
+  animation: fadeIn 1s linear 1.3s both;
+}
+#page4 .purposeEn {
+  animation: fadeInDown 0.8s ease 1.5s both;
+}
+#page4 .dot-1 {
+  animation: fadeIn .8s linear 1.8s both;
+}
+#page4 .post {
+  animation: fadeIn .8s linear 1.8s both;
+}
+#page4 .post-info {
+  animation: fadeInUp 1s linear 2.3s both;
+}
+#page4 .dot-2 {
+  animation: fadeIn .8s linear 2.9s both;
+}
+#page4 .pay {
+  animation: fadeIn .8s linear 2.9s both;
+}
+#page4 .pay-info {
+  animation: fadeInUp 1s linear 3.3s both;
+}
+#page4 .dot-3 {
+  animation: fadeIn .8s linear 4s both;
+}
+#page4 .expect {
+  animation: fadeIn .8s linear 4s both;
+}
+#page4 .expect-info {
+  animation: fadeInUp 1s linear 4.3s both;
+}
+#page4 .dot-4 {
+  animation: fadeIn .8s linear 4.9s both;
+}
+#page4 .believe {
+  animation: fadeIn .8s linear 4.9s both;
+}
+#page4 .believe-info {
+  animation: fadeInUp 1s linear 5.3s both;
+}
+.barAnimation :nth-child(1) {
+  animation: fadeIn 1s linear 6.5s both;
+}
+.barAnimation :nth-child(2) {
+  animation: fadeIn 1s linear 7s both;
+}
+.barAnimation :nth-child(3) {
+  animation: fadeIn 1s linear 7.5s both;
+}
+.barAnimation :nth-child(4) {
+  animation: fadeIn 1s linear 8s both;
+}
+.barAnimation :nth-child(5) {
+  animation: fadeIn 1s linear 8.5s both;
+}
+.barAnimation :nth-child(6) {
+  animation: fadeIn 1s linear 9s both;
+}
+.barAnimation :nth-child(7) {
+  animation: fadeIn 1s linear 9.5s both;
+}
+.text-style {
+  position: absolute;
+  color: #de525b;
+  left: 2.2rem;
+  font-size: .3rem;
+}
+.info-style {
+  position: absolute;
+  color: #de525b;
+  font-size: .35rem;
+  font-weight: bold;
+  left: 1.6rem;
+}
+.box {
+  position: absolute;
+  width: .8rem;
+  height: .8rem;
+  border: .05rem solid #de525b;
+  border-radius: 50%;
+  text-align: center;
+  line-height: .8rem;
+  font-size: .35rem;
+  font-weight: bold;
+  color: #de525b;
+}
+@keyframes zoomIn {
+  from {
+    opacity: 0;
+    transform: scale3d(0.3, 0.3, 0.3);
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes linea {
+  from {
+    opacity: 0;
+    height: 0;
+  }
+  to {
+    opacity: 1;
+    height: .8rem;
+  }
+}
+@keyframes rotateInDownRight {
+  from {
+    transform-origin: right bottom;
+    transform: rotate3d(0, 0, 1, 90deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: right bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes rotateInDownLeft {
+  from {
+    transform-origin: left bottom;
+    transform: rotate3d(0, 0, 1, -90deg);
+    opacity: 0;
+  }
+  to {
+    transform-origin: left bottom;
+    transform: none;
+    opacity: 1;
+  }
+}
+@keyframes arrowMove {
+  0% {
+    transform: none;
+  }
+  50% {
+    transform: translateY(50%);
+  }
+  100% {
+    transform: none;
+  }
+}
+@keyframes page1-img2 {
+  from {
+    opacity: 0;
+    transform: rotate(-220deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(0deg);
+  }
+}
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes page1-div {
+  from {
+    transform: translateY(0.8rem);
+    opacity: 0;
+  }
+  to {
+    transform: translateY(0);
+    opacity: 1;
+  }
+}
+@keyframes page1-img8 {
+  from {
+    opacity: 0;
+    transform: translateY(0.8rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes page1-img9 {
+  from {
+    opacity: 0;
+    transform: translateY(0.8rem);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes topBg {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 150%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes botBg {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -150%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes about-me {
+  from {
+    opacity: 0;
+    transform: translateY(80%);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes head-por {
+  from {
+    opacity: 0;
+    transform: rotate(180deg);
+  }
+  to {
+    opacity: 1;
+    transform: rotate(360deg);
+  }
+}
+@keyframes fadeInLeft {
+  from {
+    opacity: 0;
+    transform: translate3d(-100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInRight {
+  from {
+    opacity: 0;
+    transform: translate3d(100%, 0, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInDown {
+  from {
+    opacity: 0;
+    transform: translate3d(0, -100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
+@keyframes fadeInUp {
+  from {
+    opacity: 0;
+    transform: translate3d(0, 100%, 0);
+  }
+  to {
+    opacity: 1;
+    transform: none;
+  }
+}
